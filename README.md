@@ -21,8 +21,7 @@ Whist_Task/
 ```
 ### app folder
 flasklocalip.py
-The purpose of the app is to display the local host IP in the browser using `FLASK` and `HTML` for page creation and publishing,
-the Web Server Gateway Interface (WSGI) is used with `Gunicorn`. 
+The purpose of the app is to display the local host IP in the browser using `FLASK` and `HTML` for page creation and publishing, the Web Server Gateway Interface (WSGI) is used with `Gunicorn`. 
 The app code is written using `Python`.
 
 requirements.txt
@@ -52,7 +51,7 @@ This is a `Markdown` file documenting the purpose and usage of our project
 
  1. Clone this repository
  2. From terminal use the command `docker-compose up -d --build --scale app=3`, and wait for the Deployment to finish the build process.
- !https://ibb.co/bmPjTrp
+ <a href="https://ibb.co/bmPjTrp"><img src="https://i.ibb.co/mTGrkHQ/docker-compose-up.jpg" alt="docker-compose-up" border="0" /></a>
  3. Open browser at `http://localhost:9090/`
  4. For each page refresh you will cycle between 3 different IP's, which represent 3 different instances.
  5. Once done, use the command `docker-compose down`, to close all instances and Nginx server.
