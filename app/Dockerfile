@@ -6,5 +6,5 @@ WORKDIR /app
 COPY . .
 # install requirements for our application
 RUN pip install -r requirements.txt
-# run application
+# run application mapped to port 9090
 CMD gunicorn --bind 0.0.0.0:9090 flasklocalip:app
